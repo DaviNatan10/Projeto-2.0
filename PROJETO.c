@@ -2,12 +2,13 @@
 int main() {
 
     void tela_principal(void);
-    void teste(void);
     tela_principal();
     void tela_sobre(void);
     tela_sobre();
     void tela_dupla(void);
     tela_dupla();
+    void menu_usuario(void);
+    menu_usuario();
     
     return 0;
 }
@@ -22,9 +23,9 @@ void tela_principal(void) {
     printf("///                                                                             ///\n");
     printf("///            = = = = sistema de agendamento de consulta para pets = = = =     ///\n");
     printf("///           |                                                             |   ///\n");
-    printf("///           |           1. cadastro cliente                               |   ///\n");
-    printf("///           |           2. cadastro do pet                                |   ///\n");
-    printf("///           |           3. agendamentos horarios                          |   ///\n");
+    printf("///           |           1. cadastro Usuario                               |   ///\n");
+    printf("///           |           2. Agendamentos horarios                          |   ///\n");
+    printf("///           |           3. Relatorios                                     |   ///\n");
     printf("///           |           0. Sair                                           |   ///\n");
     printf("///           |                                                             |   ///\n");
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
@@ -65,5 +66,25 @@ void tela_dupla(void) {
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
 } 
-void teste(void){
-    prinf("//Davi e Felippe");
+
+void menu_usuario(void) {
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                             ///\n");
+    printf("///         SIG-Pet um sistema de agendamento de consultas para pets            ///\n");
+    printf("///                                                                             ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                             ///\n");
+    printf("///            = = = = sistema de agendamento de consulta para pets = = = =     ///\n");
+    printf("///           |                                                             |   ///\n");
+    printf("///           |           1. cadastro Usuario                               |   ///\n");
+    printf("///           |           2. Editar Usuario                                 |   ///\n");
+    printf("///           |           3. Deletar Usuario                                |   ///\n");
+    printf("///                       4. Pesquisar Usuario                              |   ///\n");
+    printf("///           |           0. Sair                                           |   ///\n");
+    printf("///           |                                                             |   ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
+    printf("///                                                                             ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
