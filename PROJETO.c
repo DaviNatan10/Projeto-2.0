@@ -2,6 +2,7 @@
 int main() {
 
     void tela_principal(void);
+    void teste(void);
     tela_principal();
     void tela_sobre(void);
     tela_sobre();
@@ -30,6 +31,7 @@ void tela_principal(void) {
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
+    
 }
 
 void tela_sobre(void) {
@@ -63,3 +65,5 @@ void tela_dupla(void) {
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
 } 
+void teste(void){
+    prinf("//Davi e Felippe");
