@@ -12,6 +12,7 @@ void delete_usuario(void);
 void pesquisar_usuario(void);
 void menu_horarios(void);
 void cadastrar_horario(void);
+void deletar_horario(void);
 
 
 // Começo do Programa. 
@@ -28,6 +29,7 @@ int main() {
     menu_horarios();
     cadastrar_horario();
     editar_horario();
+    deletar_horario();
     
 
     return 0;
@@ -176,8 +178,7 @@ void menu_horarios(void){
     printf("///           |                                                             |   ///\n");
     printf("///           |           1. Cadastrar Horario                              |   ///\n");
     printf("///           |           2. Editar Horario                                 |   ///\n");
-    printf("///           |           3. Deletar Hprario                                |   ///\n");
-    printf("///           |           4. Pesquisar Horario                              |   ///\n");
+    printf("///           |           3. Deletar Horario                                |   ///\n");
     printf("///           |           0. Sair                                           |   ///\n");
     printf("///           |                                                             |   ///\n");
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
@@ -212,4 +213,20 @@ void editar_horario(void){
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
+}
+void deletar_horario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Deletar Consulta.                            ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe dd/mm/ano da Consulta Que Deseja Excluir::                      ///\n");
+    printf("/// Informe Horario da consulta:                                            ///\n");
+    printf("/// Realmente deseja deletar sua consulta?:                                 ///\n");
+    printf("/// Consulta Deletada Com Sucesso.                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+
+
 }
