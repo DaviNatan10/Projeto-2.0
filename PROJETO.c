@@ -11,6 +11,7 @@ void editar_usuario(void);
 void delete_usuario(void);
 void pesquisar_usuario(void);
 void menu_horarios(void);
+void cadastrar_horario(void);
 
 
 // Começo do Programa. 
@@ -25,6 +26,8 @@ int main() {
     delete_usuario();
     pesquisar_usuario();
     menu_horarios();
+    cadastrar_horario();
+
     
 
     return 0;
@@ -103,7 +106,7 @@ void menu_usuario(void) {
     printf("\n");
 }
 void cadastrar_usuario(void){
-     printf("\n");
+    printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                            Cadastro de Usuario.                         ///\n");
     printf("///                                                                         ///\n");
@@ -180,5 +183,19 @@ void menu_horarios(void){
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
+void cadastrar_horario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Cadastro de Horario Para consulta.           ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe Horario da consulta:                                            ///\n");
+    printf("/// Informe seu animal(gato,cachorro,etc.):                                 ///\n");
+    printf("/// Informe o peso do animal:                                               ///\n");
+    printf("/// Informe Qual serviço deseja:                                            ///\n");
+    printf("/// Consulta Marcada Com Sucesso.                                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
