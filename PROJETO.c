@@ -27,7 +27,7 @@ int main() {
     pesquisar_usuario();
     menu_horarios();
     cadastrar_horario();
-
+    editar_horario();
     
 
     return 0;
@@ -189,12 +189,26 @@ void cadastrar_horario(void){
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                            Cadastro de Horario Para consulta.           ///\n");
-    printf("///                                                                         ///\n");
+    printf("/// Informe dd/mm/ano da consulta:                                          ///\n");
     printf("/// Informe Horario da consulta:                                            ///\n");
     printf("/// Informe seu animal(gato,cachorro,etc.):                                 ///\n");
     printf("/// Informe o peso do animal:                                               ///\n");
     printf("/// Informe Qual serviço deseja:                                            ///\n");
     printf("/// Consulta Marcada Com Sucesso.                                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
+void editar_horario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                          Editar Horario  da Consulta.                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe dd/mm/ano consulta antiga:                                      ///\n");
+    printf("/// Informe Horario consulta antiga:                                        ///\n");
+    printf("/// Pra Quando deseja Altera consulta dd/mm/ano:                            ///\n");
+    printf("/// Qual novo Horario deseja:                                               ///\n");
+    printf("/// Consulta Remarcada com Sucesso.                                         ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
