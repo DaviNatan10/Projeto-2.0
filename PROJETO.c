@@ -1,15 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+//Assinatura das Funções Criadas:
+void tela_principal(void);
+void tela_sobre(void);
+void tela_dupla(void);
+void menu_usuario(void);
+
+// Começo do Programa. 
 int main() {
 
     void tela_principal(void);
-    tela_principal();
     void tela_sobre(void);
-    tela_sobre();
     void tela_dupla(void);
-    tela_dupla();
     void menu_usuario(void);
-    menu_usuario();
-    
     return 0;
 }
 
