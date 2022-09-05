@@ -10,10 +10,11 @@ void menu_usuario(void);
 // Começo do Programa. 
 int main() {
 
-    void tela_principal(void);
-    void tela_sobre(void);
-    void tela_dupla(void);
-    void menu_usuario(void);
+    tela_principal();
+    tela_sobre();
+    tela_dupla();
+    menu_usuario();
+
     return 0;
 }
 
@@ -38,7 +39,6 @@ void tela_principal(void) {
     printf("\n");
     
 }
-
 void tela_sobre(void) {
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
@@ -52,7 +52,6 @@ void tela_sobre(void) {
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
 }
-
 void tela_dupla(void) {
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
@@ -70,7 +69,6 @@ void tela_dupla(void) {
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
 } 
-
 void menu_usuario(void) {
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
