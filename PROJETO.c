@@ -10,6 +10,7 @@ void cadastrar_usuario(void);
 void editar_usuario(void);
 void delete_usuario(void);
 void pesquisar_usuario(void);
+void menu_horarios(void);
 
 
 // Começo do Programa. 
@@ -23,6 +24,7 @@ int main() {
     editar_usuario();
     delete_usuario();
     pesquisar_usuario();
+    menu_horarios();
     
 
     return 0;
@@ -159,4 +161,24 @@ void pesquisar_usuario(void){
 
 }
 
-
+void menu_horarios(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                             ///\n");
+    printf("///         SIG-Pet um sistema de agendamento de consultas para pets            ///\n");
+    printf("///                                                                             ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                             ///\n");
+    printf("///            = = = = sistema de agendamento de Horarios para pets = = = =     ///\n");
+    printf("///           |                                                             |   ///\n");
+    printf("///           |           1. Cadastrar Horario                              |   ///\n");
+    printf("///           |           2. Editar Horario                                 |   ///\n");
+    printf("///           |           3. Deletar Hprario                                |   ///\n");
+    printf("///           |           4. Pesquisar Horario                              |   ///\n");
+    printf("///           |           0. Sair                                           |   ///\n");
+    printf("///           |                                                             |   ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
+    printf("///                                                                             ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
