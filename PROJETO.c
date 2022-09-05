@@ -12,7 +12,9 @@ void delete_usuario(void);
 void pesquisar_usuario(void);
 void menu_horarios(void);
 void cadastrar_horario(void);
+void editar_horario(void);
 void deletar_horario(void);
+
 
 
 // Começo do Programa. 
