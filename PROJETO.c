@@ -6,6 +6,8 @@ void tela_principal(void);
 void tela_sobre(void);
 void tela_dupla(void);
 void menu_usuario(void);
+void cadastrar_usuario(void);
+
 
 // Começo do Programa. 
 int main() {
@@ -14,6 +16,7 @@ int main() {
     tela_sobre();
     tela_dupla();
     menu_usuario();
+    cadastrar_usuario();
 
     return 0;
 }
@@ -88,5 +91,19 @@ void menu_usuario(void) {
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =    ///\n");
     printf("///                                                                             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
+void cadastrar_usuario(void){
+     printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Cadastro de Usuario.                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe seu nome:                                                       ///\n");
+    printf("/// Sua data de nascimento(dd/mm/ano):                                      ///\n");
+    printf("/// Email:                                                                  ///\n");
+    printf("/// Telefone para Contato:                                                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
