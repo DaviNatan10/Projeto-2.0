@@ -7,6 +7,7 @@ void tela_sobre(void);
 void tela_dupla(void);
 void menu_usuario(void);
 void cadastrar_usuario(void);
+void editar_usuario(void);
 
 
 // Começo do Programa. 
@@ -17,6 +18,8 @@ int main() {
     tela_dupla();
     menu_usuario();
     cadastrar_usuario();
+    editar_usuario();
+    
 
     return 0;
 }
@@ -102,8 +105,25 @@ void cadastrar_usuario(void){
     printf("/// Informe seu nome:                                                       ///\n");
     printf("/// Sua data de nascimento(dd/mm/ano):                                      ///\n");
     printf("/// Email:                                                                  ///\n");
-    printf("/// Telefone para Contato:                                                   ///\n");
+    printf("/// Telefone para Contato:                                                  ///\n");
+    printf("/// Cadastro Realizado Com Sucesso                                          ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
+void editar_usuario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Editar usuario.                              ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe Seu Email Antigo:                                               ///\n");
+    printf("/// Digite Sua Nova data de nascimento(dd/mm/ano):                          ///\n");
+    printf("/// Digite Seu novo Email:                                                  ///\n");
+    printf("/// Digite Seu Novo Telefone para Contato:                                  ///\n");
+    printf("/// Seus Dados Foram Atualizados.                                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+}
+
