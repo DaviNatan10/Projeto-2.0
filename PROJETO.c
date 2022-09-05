@@ -9,6 +9,7 @@ void menu_usuario(void);
 void cadastrar_usuario(void);
 void editar_usuario(void);
 void delete_usuario(void);
+void pesquisar_usuario(void);
 
 
 // Começo do Programa. 
@@ -21,6 +22,7 @@ int main() {
     cadastrar_usuario();
     editar_usuario();
     delete_usuario();
+    pesquisar_usuario();
     
 
     return 0;
@@ -137,6 +139,20 @@ void delete_usuario(void){
     printf("/// Informe  Email Que Deseja Excluir::                                     ///\n");
     printf("/// Realmente deseja deletar seu cadastro?:                                 ///\n");
     printf("/// Usuario Deletando Com Sucesso.                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+
+}
+void pesquisar_usuario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Pesquisar usuario.                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe  Email Que Deseja Pesquisar::                                   ///\n");
+    printf("/// Realmente deseja deletar seu cadastro?:                                 ///\n");
+    printf("/// Este Sao os dados do Usuario pesquisado:                                ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
