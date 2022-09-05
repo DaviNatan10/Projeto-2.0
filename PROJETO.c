@@ -8,6 +8,7 @@ void tela_dupla(void);
 void menu_usuario(void);
 void cadastrar_usuario(void);
 void editar_usuario(void);
+void delete_usuario(void);
 
 
 // Começo do Programa. 
@@ -19,6 +20,7 @@ int main() {
     menu_usuario();
     cadastrar_usuario();
     editar_usuario();
+    delete_usuario();
     
 
     return 0;
@@ -126,4 +128,19 @@ void editar_usuario(void){
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
+void delete_usuario(void){
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                            Deletar usuario.                             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("/// Informe  Email Que Deseja Excluir::                                     ///\n");
+    printf("/// Realmente deseja deletar seu cadastro?:                                 ///\n");
+    printf("/// Usuario Deletando Com Sucesso.                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+
+}
+
 
